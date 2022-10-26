@@ -1,18 +1,17 @@
-#Pojeto Python - Curso de extensão Anima
+#Exemplos com input():
+nome = input("Digite seu nome: ")
 
-print("Olá Mundo!")
-
-#Salvando strings em variáveis:
-
-nome = "Vinicius Costa"
-idade = 20
-
-#Exibir dados das variáveis solicitadas:
+#Comandos de saida:
 print(nome)
+print(f"Boa noite, seu nome é {nome} \n \n")
 
-#Fase e variável no mesmo print
-print("Minha idade é", idade)
-print(f"Minha idade é {idade}\n")
+#Exercicio:
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
 
-#Exibir variáveis no meio da frase com .format
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
+print(f"Seu nome é {nome} e você tem {idade} anos \n \n")
+
+#Mostrando o dobro da idade:
+dobro = idade * 2
+print(f"O dobro da sua idade é {dobro} \n \n")
+
